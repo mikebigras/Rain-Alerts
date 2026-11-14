@@ -2,7 +2,7 @@ import requests
 from twilio.rest import Client
 import os
 
-account_sid = "ACdfcb5f52f9713c5ab0f177d3eb27b93e"
+account_sid = os.getenv("TWILIO_ACCOUNT_SID")
 auth_token = os.getenv("TWILIO_AUTH_TOKEN")
 twilio_phone = "+14014854110"
 my_phone = "+15142950126"
