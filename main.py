@@ -7,6 +7,7 @@ auth_token = os.getenv("TWILIO_AUTH_TOKEN")
 twilio_phone = "+14014854110"
 my_phone = "+15142950126"
 API_KEY = os.environ.get("OWM_API_KEY")
+print(API_KEY)
 LAT = 45.8500      # Mascouche
 LON = -73.6500
 OWN_ENDPOINT = "http://api.openweathermap.org/data/2.5/forecast"
